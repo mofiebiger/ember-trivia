@@ -9,7 +9,8 @@ module.exports = {
     }
   },
   plugins: [
-    'ember'
+    'ember',
+    'prettier'
   ],
   extends: [
     'eslint:recommended',
@@ -19,7 +20,8 @@ module.exports = {
     browser: true
   },
   rules: {
-    'ember/no-jquery': 'error'
+    'ember/no-jquery': 'error',
+    quotes: ['error', 'single'],
   },
   overrides: [
     // node files
