@@ -1,0 +1,18 @@
+.ui-footer-container {
+  background-color: #22223A;
+  bottom: 0;
+  color: #D56C2C;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.ui-footer-container p {
+  font-size: 20px;
+  padding-top: height / 2 px;
+}
+
+.ui-footer-img {
+  width: 95px;
+}
