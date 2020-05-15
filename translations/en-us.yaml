@@ -1,2 +1,12 @@
 hello:
   universe: Hello Universe!
+
+header:
+  alt:
+    ember-trivia: Ember Triva
+
+footer:
+  made-with: Made with
+  by-mo: by Mo
+  alt:
+    tomster-sending-love: Tomster sending love!

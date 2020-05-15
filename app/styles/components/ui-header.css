@@ -1,0 +1,30 @@
+.ui-header-container {
+  background-color: #22223A;
+  color: #D56C2C;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.ui-header-container h1 {
+  margin-left: 20px;
+}
+
+.ui-plain-header {
+  background-color: #C2C2C9;
+  color: #132937;
+  justify-content: center;
+  padding: 10px;
+  width: auto;
+}
+
+.ui-plain-header h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.ui-header-img {
+  height: 50px;
+  padding: 10px;
+  width: 180px;
+}
