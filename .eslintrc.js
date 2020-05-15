@@ -9,8 +9,7 @@ module.exports = {
     }
   },
   plugins: [
-    'ember',
-    'prettier'
+    'ember'
   ],
   extends: [
     'eslint:recommended',
