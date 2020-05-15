@@ -1,5 +1,7 @@
 # ember-trivia
 
+[![CircleCI](https://circleci.com/gh/mofiebiger/ember-trivia.svg?style=svg)](https://circleci.com/gh/mofiebiger/ember-trivia)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
