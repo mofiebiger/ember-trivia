@@ -1,0 +1,78 @@
+.start-game-page-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15%;
+}
+
+.select-trigger {
+  align-items: center;
+  border-color: var(--ash-8);
+  border-radius: 10px;
+  display: flex;
+  font-size: 20px;
+  font-style: italic;
+  margin: 15px;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+}
+
+.select-trigger :global(.ember-power-select-selected-item) {
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.select-trigger :global(.ember-power-select-status-icon) {
+  border: solid var(--ash-8);
+  border-width: 0 2px 2px 0;
+  padding: 2px;
+  right: 12px;
+  top: -2px;
+  transform: rotate(45deg);
+}
+
+.select-trigger[aria-expanded="true"] :global(.ember-power-select-status-icon) {
+  top: 2px;
+  transform: rotate(-135deg);
+}
+
+.select-dropdown {
+  background-color: var(--white);
+  border-color: var(--ash-8);
+  border-radius: 10px;
+  box-shadow: 0 6px 5px 0 var(--ash-9-10pc);
+  max-width: 300px;
+  width: auto;
+}
+
+.select-dropdown :global(.ember-power-select-option) {
+  color: var(--ash-8);
+  height: 34px;
+  line-height: 34px;
+  overflow: hidden;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+}
+
+.select-dropdown :global(.ember-power-select-option)[aria-current="true"] {
+  background-color: var(--ash-1);
+}
+
+.select-dropdown :global(.ember-power-select-option):not(:first-of-type) {
+  border-top: 1px solid var(--ash-2);
+}
+
+.play-button {
+  align-items: center;
+  background-color: var(--navy);
+  border-radius:20px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  height: 40px;
+  justify-content: center;
+  min-width:100px;
+  text-decoration: none;
+}
