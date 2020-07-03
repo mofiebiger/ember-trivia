@@ -1,0 +1,39 @@
+<div local-class="start-game-page-container">
+  <DisplayBox
+    @text={{t "start.pick-criteria"}}
+  >
+    <div data-test-select-category>
+      <PowerSelect
+        @triggerClass={{local-class "select-trigger"}}
+        @dropdownClass={{local-class "select-dropdown"}}
+        @placeholder={{t "start.select-category"}}
+        @options={{array (t "start.category.ember-js") (t "start.category.ember-cli") (t "start.category.ember-data")}}
+        @selected={{this.category}}
+        @onChange={{fn (mut this.category)}} as |values|
+      >
+        {{values}}
+      </PowerSelect>
+    </div>
+    <div data-test-select-difficulty>
+      <PowerSelect
+        @triggerClass={{local-class "select-trigger"}}
+        @dropdownClass={{local-class "select-dropdown"}}
+        @placeholder={{t "start.select-difficulty"}}
+        @options={{array (t "start.difficulty.easy") (t "start.difficulty.medium") (t "start.difficulty.hard")}}
+        @selected={{this.difficulty}}
+        @onChange={{fn (mut this.difficulty)}} as |values|
+      >
+        {{values}}
+      </PowerSelect>
+    </div>
+  </DisplayBox>
+
+  <LinkTo
+    data-test-play-button
+    local-class="play-button"
+    @route="trivia-data"
+    @models={{array this.category this.difficulty}}
+    >
+    {{t "start.play"}}
+  </LinkTo>
+</div>

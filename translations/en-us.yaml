@@ -10,3 +10,17 @@ footer:
   by-mo: by Mo
   alt:
     tomster-sending-love: Tomster sending love!
+
+start:
+  pick-criteria: Pick your Ember trivia criteria
+  play: Play
+  select-category: Select category
+  category:
+    ember-js: EmberJS
+    ember-cli: EmberCLI
+    ember-data: EmberDATA
+  select-difficulty: Select difficulty
+  difficulty:
+    easy: Easy
+    medium: Medium
+    hard: Hard

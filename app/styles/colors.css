@@ -1,0 +1,108 @@
+/* Colours should be defined as css module values and then mapped onto css vars.
+ * This allows the colours to be accessed via javascript.
+ * If a colour has transparency variants, a value with the RGB values should also be defined.
+ * This should be of the format `<name>-rgb: `<r>, <g>, <b>`.
+ * The RGB value should be used within the css var defining the transparency:
+ * `--<name>-50pc: rgba(<name>-rgb, 0.5);`
+ * If updating a hex value, if there is an rgb equivalent, be sure to update this too
+ *
+ * To preview colours visit https://app-dev.phorest.com/styleguide?f=fp
+ */
+@value ash-1: #f4f5f7;
+@value ash-1-rgb: 244, 245, 247;
+@value ash-2: #e7ebef;
+@value ash-3: #d1d6df;
+@value ash-4: #bac2d0;
+@value ash-5: #a2adc0;
+@value ash-6: #8b99b0;
+@value ash-7: #7484a0;
+@value ash-8: #505e75;
+@value ash-8-rgb: 80, 94, 117;
+@value ash-9: #282f3c;
+@value ash-9-rgb: 40, 47, 60;
+@value birch-1: #e3f3f9;
+@value birch-2: #7fcde9;
+@value birch-3: #009cd4;
+@value birch-3-rgb: 0, 156, 212;
+@value birch-4: #006286;
+@value black-rgb: 0, 0, 0;
+@value cherry-1: #f5dfdd;
+@value cherry-3: #e74c3c;
+@value cherry-3-rgb: 231, 76, 60;
+@value fir-1: #e4f4eb;
+@value fir-3: #2ecc71;
+@value chestnut-1: #ffd5ac;
+@value chestnut-2: #ffae5e;
+@value chestnut-3: #fb7c00;
+@value oak: #643582;
+@value white: #fff;
+@value white-rgb: 255, 255, 255;
+@value navy: #22223A;
+@value ember-orange: #D56C2C;
+
+:root {
+  /* ash (~grey) */
+  --ash-1: ash-1;
+  --ash-1-50pc: rgba(ash-1-rgb, 0.5);
+  --ash-2: ash-2;
+  --ash-3: ash-3;
+  --ash-4: ash-4;
+  --ash-5: ash-5;
+  --ash-6: ash-6;
+  --ash-7: ash-7;
+  --ash-8: ash-8;
+  --ash-8-20pc: rgba(ash-8-rgb, 0.2);
+  --ash-8-40pc: rgba(ash-8-rgb, 0.4);
+  --ash-8-70pc: rgba(ash-8-rgb, 0.7);
+  --ash-9: ash-9;
+  --ash-9-5pc: rgba(ash-9-rgb, 0.05);
+  --ash-9-10pc: rgba(ash-9-rgb, 0.1);
+  --ash-9-20pc: rgba(ash-9-rgb, 0.2);
+  --ash-9-50pc: rgba(ash-9-rgb, 0.5);
+
+  /* birch (~blue) */
+  --birch-1: birch-1;
+  --birch-2: birch-2;
+  --birch-3: birch-3;
+  --birch-3-10pc: rgba(birch-3-rgb, 0.1);
+  --birch-4: birch-4;
+
+  /* black */
+  --black-20pc: rgba(black-rgb, 0.2);
+  --black-70pc: rgba(black-rgb, 0.7);
+
+  /* cherry (~red) */
+  --cherry-1: cherry-1;
+  --cherry-3: cherry-3;
+  --cherry-3-70pc: rgba(cherry-3-rgb, 0.7);
+
+  /* fir (~green) */
+  --fir-1: fir-1;
+  --fir-3: fir-3;
+
+  /* chestnut (~orange) */
+  --chestnut-1: chestnut-1;
+  --chestnut-2: chestnut-2;
+  --chestnut-3: chestnut-3;
+
+  /* oak (purple - the Phorest brand colour) */
+  --oak: oak;
+
+  /* white */
+  --white: white; /* stylelint-disable-line color-named */
+  --white-10pc: rgba(white-rgb, 0.1);
+  --white-20pc: rgba(white-rgb, 0.2);
+  --white-50pc: rgba(white-rgb, 0.5);
+  --transparent: rgba(white-rgb, 0);
+
+  /* swing GUI */
+  --swing-green: #96de00; /* stylelint-disable-line color-no-hex */
+  --swing-blue: birch-3;
+  --swing-blue-lighter: #7cbfee; /* stylelint-disable-line color-no-hex */
+  --swing-orange: #ffba1f; /* stylelint-disable-line color-no-hex */
+  --swing-yellow: #f6d609; /* stylelint-disable-line color-no-hex */
+
+  /* Mo Colours */
+  --navy: navy;
+  --ember-orange: ember-orange;
+}

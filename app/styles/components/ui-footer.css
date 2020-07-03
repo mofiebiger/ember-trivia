@@ -1,18 +1,24 @@
 .ui-footer-container {
-  background-color: #22223A;
+  background-color: var(--navy);
   bottom: 0;
-  color: #D56C2C;
+  box-shadow: 0 -20px 20px 0 var(--black-20pc);
+  color: var(--ember-orange);
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
 .ui-footer-container p {
   font-size: 20px;
+  font-weight: bold;
   padding-top: height / 2 px;
 }
 
 .ui-footer-img {
-  width: 95px;
+  width: 100px;
+}
+
+.heart-icon {
+  color: var(--birch-2);
 }
