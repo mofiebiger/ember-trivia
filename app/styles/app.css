@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;1,100&display=swap');
 
 body {
-  background: #EDF2F5;
-  color: #10101B;
-  font-family: 'Source Sans Pro', sans-serif;
+  background: var(--ash-2);
+  color: var(--ash-8);
+  font-family: 'Barlow Condensed', sans-serif;
   margin: 0;
-}
-
-h1 {
-  font-family: 'Pacifico';
-  display: flex;
-  justify-content: center;
 }
 
 .application-container {
