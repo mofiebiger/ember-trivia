@@ -1,0 +1,433 @@
+{
+  "data": [
+    {
+      "type": "questions",
+      "id": "001",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "What is Ember.JS?",
+        "correct-answer": "An open-source JavaScript web framework.",
+        "options": [
+          "An open-source JavaScript web framework.",
+          "A small piece of burning or glowing coal or wood in a dying fire.",
+          "A programming language.",
+          "A temperature mug."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "002",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "Ember consists of five key concepts. What are they?",
+        "correct-answer": "Routes, Models, Templates, Components, Services",
+        "options": [
+          "JavaScript, Models, Templates, Components, Services",
+          "JavaScript, Routes, Templates, Components, Services",
+          "Routes, Models, Templates, Components, Services",
+          "JavaScript, Routes, Templates, Components, DOM"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "003",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "What are Templates (Handlebars)?",
+        "correct-answer": "Builds the application's HTML into DOM elements",
+        "options": [
+          "Its just HTML",
+          "Builds the application's HTML into DOM elements",
+          "Another programming language",
+          "Designs which Ember gives to developers to create beautiful web pages."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "004",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "Why is Ember like Ruby on Rails?",
+        "correct-answer": "Ember follows the 'Convention over Configuration' and 'Don't Repeat Yourself' principles.",
+        "options": [
+          "There is Ruby used in Ember.",
+          "The founder of Ruby on Rails is also the founder of Ember.",
+          "Ember follows the 'Convention over Configuration' and 'Don't Repeat Yourself' principles.",
+          "Ember and Ruby on Rails are easy to learn frameworks."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "005",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "Who are some companies that have endorsed Ember.JS?",
+        "correct-answer": "LinkedIn, Apple Music, Square",
+        "options": [
+          "Facebook, Chipotle, LinkedIn",
+          "Facebook, Square, Google",
+          "LinkedIn, Apple Music, Google",
+          "LinkedIn, Apple Music, Square"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "006",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "What is the difference between a Classic Component and a Glimmer Component?",
+        "correct-answer": "If a component template doesn't have a related JavaScript file.",
+        "options": [
+          "The only difference is the syntax.",
+          "There is no difference...",
+          "If the component looks shiney and new.",
+          "If a component template doesn't have a related JavaScript file."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "007",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "What is Liquid Fire?",
+        "correct-answer": "Provides animation support for Ember applications.",
+        "options": [
+          "The name of Ember's Development Team.",
+          "Ember's version of git.",
+          "Ember's online education forum.",
+          "Provides animation support for Ember applications."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "008",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "Who Founded Ember.JS?",
+        "correct-answer": "Yehuda Katz",
+        "options": ["Steve Jobs", "Yehuda Katz", "Bill Gates", "Janese Swanson"]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "009",
+      "attributes": {
+        "category": "EmberJS",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "What does the concept 'stability without stagnation' mean?",
+        "correct-answer": "Backwards compatibility is important and can be maintained while still innovating and evolving the framework.",
+        "options": [
+          "Backwards compatibility is important and can be maintained while still innovating and evolving the framework.",
+          "Ember wants to move forward as fast as possible and be the best framework out there.",
+          "Backwards compatibility isn't very important.",
+          "The only thing that matters to Ember is backward compatibility."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "010",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "How do you start the build of an Ember app in the command line?",
+        "correct-answer": "$. ember serve",
+        "options": [
+          "$. ember play",
+          "$. ember serve",
+          "$. ember start",
+          "$. ember go"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "011",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "What is EmberCLI used for?",
+        "correct-answer": "Its used to create, build, serve, and test Ember.js apps and addons.",
+        "options": [
+          "EmberCLI doesn't exist, but will in the future.",
+          "Its used to navigate though Ember apps",
+          "Its used to create, build, serve, and test Ember.js apps and addons.",
+          "You must write all your code with EmberCLI."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "012",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "EmberCLI's development server comes with a live reload.",
+        "correct-answer": "True",
+        "options": ["True", "False"]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "013",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "What build tool is used when running an Ember App?",
+        "correct-answer": "Broccoli",
+        "options": ["Babel", "NPM", "Cucumber", "Broccoli"]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "014",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "What is the default port used in the browser when the pipeline is built?",
+        "correct-answer": "4200",
+        "options": ["900", "6000", "4200", "4900"]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "015",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "What is a blueprint in EmberCLI",
+        "correct-answer": "Code generators for creating models, controllers, and components.",
+        "options": [
+          "Code generators for creating models, controllers, and components.",
+          "Code generators for creating custom files.",
+          "Creates, organizes, and maintains the application file structure.",
+          "All of the above"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "016",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "What does the command '$. ember t -f' do?",
+        "correct-answer": "It will run only the tests with a description that matches a phrase.",
+        "options": [
+          "It will run only the unit test module for a utility by `name`, on every change.",
+          "It will run your tests on every file-change.",
+          "It will run only the tests with a description that matches a phrase.",
+          "It will run your test-suite in your current shell once."
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "017",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "EmberCLI’s runtime is configurable via a file named .ember-cli. What can be configured here?",
+        "correct-answer": "",
+        "options": ["CSS configurations.", "blah", "blah", "All of the above."]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "018",
+      "attributes": {
+        "category": "EmberCLI",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "blah blah",
+        "correct-answer": "",
+        "options": ["blah blah", "blah", "blah", "blah"]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "019",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "020",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "021",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Easy",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "022",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "023",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "024",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Medium",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "025",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "026",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    },
+    {
+      "type": "questions",
+      "id": "027",
+      "attributes": {
+        "category": "EmberDATA",
+        "difficulty": "Hard",
+        "score": false,
+        "question": "blah",
+        "correct-answer": "blah",
+        "options": [
+          "blah",
+          "blah blah",
+          "blah blah blah",
+          "blah blah blah blah"
+        ]
+      }
+    }
+  ]
+}
