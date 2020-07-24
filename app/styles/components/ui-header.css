@@ -16,10 +16,11 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
   justify-content: center;
+  text-align: center;
   width: auto;
 }
 
-.ui-secondary-header h3 {
+.ui-secondary-header p {
   margin: 15px;
 }
 
