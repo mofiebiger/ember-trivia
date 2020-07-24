@@ -1,0 +1,54 @@
+<div local-class="question-card-container">
+  <DisplayBox
+    @text={{@question}}
+  >
+    <button
+      data-test-question-one
+      local-class="option-button"
+      id="one"
+      type="button"
+      disabled={{this.isAnswered}}
+      onClick={{fn this.onClick "one" @options.[0]}}
+    >
+      {{@options.[0]}}
+    </button>
+    <button
+      data-test-question-two
+      local-class="option-button"
+      id="two"
+      type="button"
+      disabled={{this.isAnswered}}
+      onClick={{fn this.onClick "two" @options.[1]}}
+    >
+      {{@options.[1]}}
+    </button>
+    <button
+      data-test-question-three
+      local-class="option-button"
+      id="three"
+      type="button"
+      disabled={{this.isAnswered}}
+      onClick={{fn this.onClick "three" @options.[2]}}
+    >
+      {{@options.[2]}}
+    </button>
+    <button
+      data-test-question-four
+      local-class="option-button"
+      id="four"
+      type="button"
+      disabled={{this.isAnswered}}
+      onClick={{fn this.onClick "four" @options.[3]}}
+      >
+      {{@options.[3]}}
+    </button>
+  </DisplayBox>
+  <LinkTo
+    data-test-next-button
+    local-class="next-button"
+    @disabled={{this.isNotAnswered}}
+    @route={{@route}}
+    >
+    {{@buttonText}}
+  </LinkTo>
+</div>
